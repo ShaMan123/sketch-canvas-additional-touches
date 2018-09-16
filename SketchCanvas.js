@@ -1,6 +1,5 @@
 'use strict';
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import {
     StyleSheet,
     Text,
@@ -46,19 +45,8 @@ const styles = StyleSheet.create({
     },
 });
 
-const eventTimingValues = {
-    onPressMax: 400,
-    onLongPressMin: 500
-}
 
 export default class CustomCanvas extends Component {
-    static propTypes = {
-
-    }
-    static defaultProps = {
-
-    };
-
     constructor(props) {
         super(props);
 
