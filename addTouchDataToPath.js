@@ -48,7 +48,7 @@ export default function addTouchDataToPath(pathData) {
         return coords.toString();
     });
     const __touchData = _.sortBy(_touchData, [0, 1]);
-    console.log(_touchData)
+   
     return {
         touchData: __touchData,
         rawTouchData: _touchData
