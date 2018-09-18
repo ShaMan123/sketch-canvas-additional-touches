@@ -1,2 +1,2 @@
 import SketchCanvas from './lib/SketchCanvas';
-return SketchCanvas;
+export default SketchCanvas;
