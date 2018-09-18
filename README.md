@@ -1,4 +1,4 @@
-# sketch-canvas-pathOnPress
+# sketch-canvas-additional-touches
 ### trying to add support for a pathOnPress event
 
 I'm using `SketchCanvas` in 2 ways:
