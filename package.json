@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "react-native init && npm install && react-native link && stash.bat",
-    "link": "stash.bat",
+    "init": "react-native init && npm install && react-native link && stash.bat",
     "test": "jest"
   },
   "dependencies": {
