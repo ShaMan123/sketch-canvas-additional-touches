@@ -1,5 +1,5 @@
 # sketch-canvas-additional-touches
-### trying to add support for a pathOnPress event
+### Trying to add support for a pathOnPress event
 
 I'm using `SketchCanvas` from [@terrylinla/react-native-sketch-canvas](https://github.com/terrylinla/react-native-sketch-canvas) in 2 ways:
 ```
