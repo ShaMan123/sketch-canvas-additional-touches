@@ -1,2 +1,4 @@
-import SketchCanvas from './SketchCanvas';
-export default SketchCanvas;
+import { AppRegistry } from 'react-native';
+import SketchCanvas from './lib/SketchCanvas';
+
+AppRegistry.registerComponent('sketchCanvasEnhance', () => SketchCanvas);
