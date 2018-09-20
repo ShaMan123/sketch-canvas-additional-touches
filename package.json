@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "init": "react-native init && npm install && react-native link && stash.bat",
+    "start": "react-native init && npm install && react-native link",
+    "poststart": "\n\n\n\nBefore running/building android you must dismiss the changes made to file under /android",
     "test": "jest"
   },
   "dependencies": {

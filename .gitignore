@@ -25,10 +25,7 @@ project.xcworkspace
 # Android/IntelliJ
 #
 build/
-.idea
-.gradle
-local.properties
-*.iml
+
 
 # node.js
 #
@@ -54,12 +51,5 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
-/android/
-/ios/
-.babelrc
-.buckconfig
-.flowconfig
-.gitattributes
-.watchmanconfig
-app.json
-package-lock.json
+
+
